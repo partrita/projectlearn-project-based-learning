@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import nameCheapLogo from "../../images/powered-by-namecheap.png"
-
 const FooterWrapper = styled.div`
   margin: 0vh 5vw;
   display: flex;
@@ -67,7 +65,7 @@ const FooterWrapper = styled.div`
 export default function Footer() {
   return (
     <FooterWrapper>
-      <div className="footer-sponsor">© 2024 ProjectLearn</div>
+      <div className="footer-sponsor">© 2025 ProjectLearn</div>
 
       <div className="footer-container">
         <a
@@ -93,11 +91,6 @@ export default function Footer() {
         </a> */}
 
       </div>
-      <a
-        href="https://www.namecheap.com"
-        className="img-link"
-        target="_blank"
-      ><img src={nameCheapLogo} width={'100%'} alt="Powered by Namecheap" /></a>
     </FooterWrapper>
   );
 }
